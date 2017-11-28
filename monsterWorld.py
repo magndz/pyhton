@@ -1,4 +1,3 @@
-# 230201072
 # # # # # # # # # # # # # # # # # # # #
 # Monsters' World
 from random import randint
