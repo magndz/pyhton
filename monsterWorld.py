@@ -68,8 +68,8 @@ monstersWorld = f.readlines() #set monsterWorld with lines
 f.close()#close file
 monstersWorldList = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] #I have to define monsterWorldList like that because I did not have permission for use append function
 col = 1     	#|
-row = 0			#|
-step = 0		#|variables
+row = 0		#|
+step = 0	#|variables
 error = 0   	#|
 monster = False #|
 for x in range(len(monstersWorld)): monstersWorldList[x] = monstersWorld[x].replace("\n","") #this for loop to read charecters in list end replace them and set them another list that monstersWorldList
